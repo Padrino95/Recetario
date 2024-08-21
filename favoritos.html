@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link
+      rel="stylesheet"
+      href="https://bootswatch.com/5/solar/bootstrap.min.css"
+    />
+    <style>
+      header a {
+        text-decoration: none;
+        color: white;
+        margin-right: 20px;
+      }
+      #mensajeEliminado {
+            display: none;
+            position: fixed;
+            top: 0;
+            right: 0;
+            padding: 10px;
+            background-color: #4CAF50;
+            color: white;
+        }
+    </style>
+  </head>
+  <body>
+    <header
+      class="container p-5 bg-danger text-light my-5 d-flex justify-content-between"
+    >
+      <div class="logo">
+        <a href="">LOGO</a>
+      </div>
+      <div class="nav">
+        <a href="./index.html">HOME</a>
+        <a href="./favoritos.html">FAVORITOS</a>
+      </div>
+    </header>
+    <main id="indexFavoritos">
+      <section class="container">
+        <div id="favoritos" class="row">
+        </div>
+      </section>
+      <div class="popup">
+                
+      </div>
+      <div id="mensajeEliminado">Eliminado a favoritos</div>
+    </main>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./js.js"></script>
+  </body>
+</html>
